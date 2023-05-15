@@ -6,7 +6,7 @@ import { externalLinkIconPlugin } from "@vuepress/plugin-external-link-icon";
 
 export default defineUserConfig({
   // 站点配置
-  base: "/liushun-ing/",
+  // base: "/liushun-ing/",
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/imgs/favicon.ico" }]],
   title: "liushun的个人主页",
