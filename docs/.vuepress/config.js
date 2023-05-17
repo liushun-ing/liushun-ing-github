@@ -56,6 +56,7 @@ export default defineUserConfig({
             "/tech/js/2.md",
             "/tech/js/3.md",
             "/tech/js/4.md",
+            "/tech/js/5.md",
           ],
         },
       ],
