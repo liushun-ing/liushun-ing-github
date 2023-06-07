@@ -1,4 +1,4 @@
-# Javascript
+# Navigation
 
 - js基础知识
 

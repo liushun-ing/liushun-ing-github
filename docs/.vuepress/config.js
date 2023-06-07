@@ -9,12 +9,12 @@ export default defineUserConfig({
   // base: "/liushun-ing/",
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/imgs/favicon.ico" }]],
-  title: "liushun的个人主页",
+  title: "不愿飞的蜂鸟首页",
   description: "菜鸟的养成笔记",
   theme: defaultTheme({
     navbar: [
       {
-        text: "菜鸟技术",
+        text: "了解技术",
         children: [
           { text: "JavaScript", link: "/tech/js/" },
           { text: "HTML_CSS", link: "/tech/html_css/" },
@@ -31,7 +31,7 @@ export default defineUserConfig({
         ],
       },
       {
-        text: "菜鸟课程",
+        text: "学习课程",
         children: [
           { text: "操作系统", link: "/course/operating_system/" },
           { text: "计算机网络技术", link: "/course/computer_network/" },
@@ -165,8 +165,8 @@ export default defineUserConfig({
       "/tech/node": [
         {
           text: "Node",
-          children: ["/tech/node/README.md", "/tech/node/1.md"]
-        }
+          children: ["/tech/node/README.md", "/tech/node/1.md", "/tech/node/2.md"]
+        },
       ],
       "/tech/less_sass": [
         {
